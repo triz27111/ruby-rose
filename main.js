@@ -52,6 +52,13 @@ const produtos = [
         preco: "R$14,56",
         parcelas: "ou em até 6x de R$ 2,56 no cartão",
         imagem: "./img/img_1 (4).png"
+    },
+    {
+        nome: "Cream Cheeks",
+        descricao: "Cream Cheeks é um blush cremoso que oferece um acabamento natural e duradouro, realçando todos os tons de pele.",
+        preco: "R$15,30",
+        parcelas: "ou em até 6x de R$ 2,56 no cartão",
+        imagem: "./img/cream.png"
     }
 
 ];
