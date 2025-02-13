@@ -1,0 +1,136 @@
+:root{
+    --cor-hover: #bb0c61;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, ol, li{
+    list-style: none;
+}
+body{
+    background-color: #ffeef2;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    gap: 60px;
+    background-color: #db729e;
+    color: white;
+    padding: 16px;
+}
+
+.menu li{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 4px 8px;
+    transition: .5s;
+}
+
+.menu li:hover{
+    background-color: var(--cor-hover);
+}
+
+.menu img{
+    height: 16px;
+} 
+main{
+    
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    padding-left: 50px;
+    gap: 40px;
+    justify-content: center;
+    
+}
+
+.wrapper{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px #f1b9d0;
+}
+.wrapper p{
+    color: #dc86aa;;
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0 ;
+}
+.card1 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0 ;
+}
+.card{
+    padding-left: 10px;
+}
+
+.card h3{
+    background-color: #db729e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+.card h2{
+    text-align: center;
+    color: #db729e;
+    margin-top:  10px;
+}
+
+.card1 h2{
+    text-align: center;
+    color: #db729e;
+    margin-top:  10px;
+}
+
+.preco span{
+    background-color: #db729e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+.descricao {
+    padding: 10px;
+    display: grid;
+    color: #db729e;
+}
+
+.deacricao p {
+    text-align: center;
+}
+
+
+.compra {
+    display: block;
+    padding: 15px 30px;
+    width: 90%;
+    margin: 20px auto;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: #db729e;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+} 
